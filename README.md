@@ -38,7 +38,7 @@
 <br />
 
 5. 備考
-    - リソースグループにあるAppServicePlanが増減する訳ではなく、作成したappserviceplanの中でインスタンス数を管理している。appserviceplan1、appserviceplan2と増える訳ではない。
+    - リソースグループにあるAppServicePlanが増えたりする訳ではなく、一つのappserviceplanの中で複数のインスタンスを管理している。appserviceplan1、appserviceplan2と増える訳ではない。
     - AppServicePlanは基本Debianっぽい。
         ```
         $ cat /etc/issue
