@@ -6,7 +6,7 @@
     (インストール)
     ```
     $ apt update
-    $ apt install stress-ng
+    $ apt install -y stress-ng
     $ stress-ng --version
     > stress-ng, version 0.09.50
     ```
