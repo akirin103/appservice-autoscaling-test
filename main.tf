@@ -6,14 +6,6 @@ terraform {
       version = "=2.73.0"
     }
   }
-
-  # backend "azurerm" {
-  #   # 手動デプロイ用
-  #   resource_group_name  = "hisano-terraform-rg"
-  #   storage_account_name = "hisanotfstatedev"
-  #   container_name       = "hisano-tfstate"
-  #   key                  = "office-system-dev.tfstate"
-  # }
 }
 
 provider "azurerm" {
